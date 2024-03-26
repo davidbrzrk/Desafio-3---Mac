@@ -64,6 +64,7 @@ export const Main = styled.main`
 background-color: #FFC72C;
 display: flex;
 align-items: center;
+flex-direction: column;
 
 span{
     color:#DB0007;
@@ -80,20 +81,12 @@ font-family: "Inter", sans-serif;
 export const imagensmain = styled.div`
 display: flex;
 align-items: center;
+justify-content: space-evenly;
 `;
 
-export const bigmac = styled.div`
+export const smallimage = styled.img`
 height: 15%;
-`;
-
-export const mcfritas = styled.div`
-height: 15%;
-
-`;
-
-export const casquinha = styled.div`
-height: 15%;
-
+width: 15%;
 `;
 
 //CARDS
