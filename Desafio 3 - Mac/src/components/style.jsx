@@ -29,6 +29,7 @@ img{
     height: 45%;
 }
 display: flex;
+font-size: 7px;
 border-radius: 9px;
 height: 75%;
 align-items: center;
@@ -46,6 +47,7 @@ img{
 }
 
 display: flex;
+font-size: 7px;
 border-radius: 9px;
 background-color:#FFC72C;
 align-items: center;
@@ -87,6 +89,7 @@ justify-content: space-evenly;
 export const smallimage = styled.img`
 height: 15%;
 width: 15%;
+cursor: pointer;
 `;
 
 //CARDS
